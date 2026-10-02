@@ -14,7 +14,7 @@ class CounterViewModel : ViewModel() {
         count++
     }
     fun Decrementar() {
-        count++
+        count--
     }
 
 }
