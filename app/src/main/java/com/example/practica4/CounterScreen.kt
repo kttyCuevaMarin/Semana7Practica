@@ -37,7 +37,7 @@ fun CounterScreen() {
         Button(onClick = { viewModel.increment() }) {
             Text(text = "Incrementar")
         }
-        Button(onClick = { viewModel.Decrementar() }) {
+        Button(onClick = { viewModel.decrementar() }) {
             Text(text = "Decrementar")
         }
 
